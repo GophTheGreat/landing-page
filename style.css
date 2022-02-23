@@ -1,20 +1,164 @@
-body{
+.body{
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  min-width: 100vw;
 }
 
 ul{
+  display: flex;
+  gap: 20px;
   list-style: none;
   font-size: 18px;
 }
 
-li{
-  color: white;
+a{
   text-decoration: none;
+  color: white;
 }
 
 .header{
-  padding: 20px;
+  display: flex;
+  height: auto;
+  width: 100%;
   background-color: #1F2937;
+}
+
+.header, .hero, .random{
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  width: 1000px;
+}
+
+.header .wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+
+}
+
+.hero{
+  display: flex;
+  flex: auto;
+  padding: 80px 0;
+  background-color: #1F2937;
+  justify-content: center;
+}
+
+.hero .wrapper{
+  padding: 40px 70px;
+  gap: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.left .main{
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9FAF8;
+}
+
+.left .secondary{
+  color: white;
+}
+
+.left button{
+  background-color: #3882f6;
+  font-size: 12px;
+  border: none;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+.right{
+  display: flex;
+  width: 500px;
+  height: 300px;
+  background: #999999;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.random{
+  display: flex;
+  flex-direction: column;
+}
+
+.random .main{
+  display: flex;
+  font-size: 36px;
+  font-weight: 900;
+  color: black;
+  padding: 50px;
+  justify-content: center;
+}
+
+.random .boxes{
+  display: flex;
+  color: black;
+  justify-content: space-evenly;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 155px;
+}
+
+.image{
+  border: 3px solid #1da1f9;
+  border-radius: 12px;
+  width: 155px;
+  height: 155px;
+}
+
+.quote{
+  display:flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote .main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  padding-top: 180px;
+}
+
+.quote .attr{
+  display: flex;
+  justify-content: flex-en76d;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 180px;
 }
