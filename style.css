@@ -1,0 +1,20 @@
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+ul{
+  list-style: none;
+  font-size: 18px;
+}
+
+li{
+  color: white;
+  text-decoration: none;
+}
+
+.header{
+  padding: 20px;
+  background-color: #1F2937;
+}
